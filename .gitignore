@@ -1,0 +1,17 @@
+# Build artifacts
+*.o
+*.d
+hamdex
+third_party/*.o
+third_party/*.d
+
+# Editor/OS cruft
+*.swp
+.vscode/
+.idea/
+.DS_Store
+
+# Local runtime data (in case anyone points HAMDEX_HOME or similar at the repo)
+*.db
+*.db-wal
+*.db-shm
