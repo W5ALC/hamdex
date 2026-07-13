@@ -43,7 +43,7 @@ current distro with GTK4 dev packages available.
 ## Building
 
 ```bash
-git clone <your-repo-url> hamdex
+git clone https://github.com/w5alc/hamdex hamdex
 cd hamdex
 make
 ```
